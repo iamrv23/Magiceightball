@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         Random random = new Random();
         int randomNo = random.nextInt(4);
 
+        iv.animate().rotation(360).setDuration(360);
+
         iv.setImageResource(ball[randomNo]);
 
 
